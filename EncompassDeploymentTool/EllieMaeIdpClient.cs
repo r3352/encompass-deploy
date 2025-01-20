@@ -27,6 +27,9 @@ namespace EncompassDeploymentTool
             };
         }
 
+         // UserUID - F9222660-C01A-4EA1-817F-2219583E1C23
+         
+
         public async Task<string> GetAuthCode(string instanceId, string username, string password)
         {
             // First, get the login page to fill the EM cookie and provide us the postback URL (which contains state)
